@@ -1,0 +1,8 @@
+Welcome to devops-bucket-897729111286-1779175332!
+========================
+Created on : Tue May 19 07:22:22 GST 2026
+Region     : eu-west-1
+Account    : 897729111286
+Versioning : Enabled
+
+This file was automatically uploaded by create_s3_bucket.sh
