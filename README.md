@@ -93,7 +93,7 @@ Upon success, you will see:
 ======================================
   Instance ID : i-0abc123def456789
   Public IP   : 34.250.XXX.XXX
-  Type        : t2.micro
+  Type        : t3.micro
   AMI         : ami-0c13c2049f369d641
   Key File    : my-ec2-keypair.pem
   Tag         : Project=AutomationLab
@@ -129,7 +129,7 @@ Log levels used:
 
 | Error | Cause | Fix |
 |-------|-------|-----|
-| `UnauthorizedOperation` | SCP blocking the action | Contact lab admin for permissions |
+| `UnauthorizedOperation` | SCP blocking the action | Changed Instance type to t3.micro |
 | `InvalidAMIID.NotFound` | Wrong AMI for region | Re-run the AMI lookup command for your region |
 | `InvalidKeyPair.Duplicate` | Key pair already exists | Script skips automatically |
 | `BucketAlreadyExists` | S3 bucket name taken | Change bucket name to something unique |
