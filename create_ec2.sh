@@ -9,7 +9,7 @@ export AWS_DEFAULT_REGION="$AWS_REGION"
 LOG="aws_setup.log"
 KEY_NAME="my-ec2-key-pair"
 KEY_FILE="${KEY_NAME}.pem"
-INSTANCE_TYPE="t2.micro"
+INSTANCE_TYPE="t3.micro"
 AMI_ID="ami-0c13c2049f369d641"
 TAG="Project=AutomationLab"
 
