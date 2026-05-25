@@ -3,13 +3,13 @@
 set -euo pipefail
 
 # AWS Configuration
-AWS_REGION="eu-west-1"
+AWS_REGION="${1:-eu-west-1}"
 export AWS_DEFAULT_REGION="$AWS_REGION"
 
 LOG="aws_setup.log"
 KEY_NAME="my-ec2-key-pair"
 KEY_FILE="${KEY_NAME}.pem"
-INSTANCE_TYPE="t3.micro"
+INSTANCE_TYPE="${2:-t3.micro}"
 AMI_ID="ami-0c13c2049f369d641"
 TAG="Project=AutomationLab"
 
